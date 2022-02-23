@@ -1,0 +1,44 @@
+.image {
+    transition: 1s;
+    height: 500px;
+    width: 200px;
+    border-radius: 14px;
+    position:absolute;
+    left: 10px;
+    top: 10px;
+    color: red;
+}
+
+.information {
+    transition: 1s;
+    border-radius: 14px;
+    position: absolute;
+    background-color: beige;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    left: 300px;
+    height: 497px;
+    width: 300px;
+}
+
+.image:hover {
+    transition: 1s;
+    height: 550px;
+    width: 220px
+}
+
+.information:hover {
+    transition: 1s;
+    height: 550px;
+    width: 320px;
+    padding: 25px
+}
+
+body {
+    background-color:#1C2333;
+}
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
